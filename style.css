@@ -189,6 +189,11 @@ p {
 }
 
 /* portion 4 */
+.xp_card h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
 .bwd {
     height: 400px;
     width: 810px;
