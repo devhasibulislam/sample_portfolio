@@ -3,3 +3,76 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+img {
+    max-width: 100%;
+}
+
+#portion1 {
+    display: flex;
+    flex-direction: row;
+    padding-left: 150px;
+}
+
+.part1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.part1 h1 {
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.part1 h2 {
+    margin: 0;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+#name_orange {
+    color: orange;
+    font-weight: 600;
+}
+
+#brief_intro h4 {
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#brief_intro p {
+    text-align: justify;
+    color: #696972;
+    margin-top: 10px;
+}
+
+.link_button {
+    width: 145px;
+}
+
+.link_button button {
+    text-transform: uppercase;
+    background-image: linear-gradient(90deg, #ffaa8b, #ff6a4d);
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 8px 40px;
+    color: white;
+    font-weight: 500;
+    font-family: 'Poppins';
+    font-size: 16px;
+}
+
+.part2 {
+    width: 50%;
+    padding-right: 150px;
+}
+
+.part2 img {
+    display: flex;
+    width: 70%;
+    margin-left: auto;
+}
